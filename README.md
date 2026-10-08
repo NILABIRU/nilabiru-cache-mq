@@ -50,18 +50,16 @@ Then edit `.env`:
 
 ```env
 # Tailscale
-TAILSCALE_IP=your_tailscale_ip
+TAILSCALE_IP=
 
 # Redis
-REDIS_PASSWORD=your_redis_password
+REDIS_PASSWORD=
 
 # RabbitMQ
-RABBITMQ_USER=your_rabbitmq_user
-RABBITMQ_PASSWORD=your_rabbitmq_password
-RABBITMQ_VHOST=your_rabbitmq_vhost
+RABBITMQ_USER=
+RABBITMQ_PASSWORD=
+RABBITMQ_VHOST=
 ```
-
-> **Note:** Never commit `.env` to version control. It is already listed in `.gitignore`.
 
 ### 3. Start the stack
 
