@@ -1,0 +1,10 @@
+# Tailscale
+TAILSCALE_IP=your_tailscale_ip
+
+# Redis
+REDIS_PASSWORD=your_redis_password
+
+# RabbitMQ
+RABBITMQ_USER=your_rabbitmq_user
+RABBITMQ_PASSWORD=your_rabbitmq_password
+RABBITMQ_VHOST=your_rabbitmq_vhost
